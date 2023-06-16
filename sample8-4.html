@@ -6,7 +6,7 @@
   </head>
 <body>
  <h1>森を作成</h1>
- ループで２０本の気を作った<br>
+ ループで30本の気を作った<br>
  <script>
       // ページの読み込みを待つ
       window.addEventListener('DOMContentLoaded', init);
@@ -58,7 +58,7 @@
         const material = new THREE.SpriteMaterial({ map: texture,});
 
         // 森を作成
-        for (let i = 0; i < 20; i++) {
+        for (let i = 0; i < 30; i++) {
           const sprite = new THREE.Sprite(material);
           // ランダムな座標に配置
           sprite.position.x = 2 * (Math.random() - 0.5);
